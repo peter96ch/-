@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 161802672}
   - component: {fileID: 161802671}
   - component: {fileID: 161802670}
+  - component: {fileID: 161802673}
   m_Layer: 0
   m_Name: ENDER
   m_TagString: Untagged
@@ -331,6 +332,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &161802673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161802668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287c63d5cd0693f48912c2afb4a7af56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MapTransfer2
+  sceneToLoad2: Victory
 --- !u!1 &162634072
 GameObject:
   m_ObjectHideFlags: 0
