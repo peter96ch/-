@@ -7,7 +7,7 @@ public class PersistentTimer : MonoBehaviour
     //  單例模式 (Singleton)：確保全遊戲只有「這一個」計時器存在
     public static PersistentTimer Instance;
 
-    [Header("遊戲總時間 (秒)")]
+    [Header("Game time")]
     public float timeRemaining = 120f;
     private bool isGameOver = false;
 
@@ -19,8 +19,7 @@ public class PersistentTimer : MonoBehaviour
         //  防複製人結界
         if (Instance == null)
         {
-            Instance = this;
-            // 🔥 核心魔法：告訴系統這個物件在換場景時不要刪除！
+            Instance = this; // 換場景時不刪除
             DontDestroyOnLoad(gameObject); 
         }
         else
@@ -61,10 +60,10 @@ public class PersistentTimer : MonoBehaviour
             timerText = foundTextObj.GetComponent<TextMeshProUGUI>();
             Debug.Log(" 跨場景成功！已自動連接到新場景的 TimerText");
         }
-        else
-        {
-            Debug.LogWarning(" 在新場景找不到名為 'TimerText' 的物件，請確認命名！");
-        }
+        //else
+        //{
+           // Debug.LogWarning(" 在新場景找不到名為 'TimerText' 的物件，請確認命名！");
+        //}
     }
 
     void Update()
@@ -88,6 +87,6 @@ public class PersistentTimer : MonoBehaviour
 
     void TriggerGameOver()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("Wasted");
     }
 }
