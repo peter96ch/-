@@ -2597,6 +2597,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 22, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 26, y: -7, z: 0}
     second:
       serializedVersion: 2
@@ -6336,8 +6346,8 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 11400000, guid: 78390a5806e84bc428325a08db702508, type: 2}
   - serializedVersion: 2
-    m_RefCount: 0
-    m_Data: {fileID: 11400000, guid: 3e29831613674e6468af7dc3f27d7760, type: 2}
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: d26c60fb02d2d9f4a9fbedd2a1a89de5, type: 2}
   - serializedVersion: 2
     m_RefCount: 63
     m_Data: {fileID: 11400000, guid: 22f14b62414a9bb4e836ae4149c2dcd1, type: 2}
@@ -6406,8 +6416,8 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 1130943672, guid: cecb79242d352c643b50fcdde15e7505, type: 3}
   - serializedVersion: 2
-    m_RefCount: 0
-    m_Data: {fileID: 1173306080, guid: cecb79242d352c643b50fcdde15e7505, type: 3}
+    m_RefCount: 1
+    m_Data: {fileID: 1767642860, guid: 8b488528072ae0145bce6de6f09f6db0, type: 3}
   - serializedVersion: 2
     m_RefCount: 63
     m_Data: {fileID: 1963258793, guid: 97c745b0f40a3134b8160e3c996e4fcd, type: 3}
@@ -6440,7 +6450,7 @@ Tilemap:
     m_Data: {fileID: -424809923, guid: cecb79242d352c643b50fcdde15e7505, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 603
+    m_RefCount: 604
     m_Data:
       e00: 1
       e01: 0
@@ -6460,7 +6470,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - serializedVersion: 2
-    m_RefCount: 603
+    m_RefCount: 604
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -7348,11 +7358,17 @@ Tilemap:
   m_TileAssetArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 78390a5806e84bc428325a08db702508, type: 2}
+    m_Data: {fileID: 11400000, guid: d26c60fb02d2d9f4a9fbedd2a1a89de5, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {fileID: 11400000, guid: 339ba065656255a4789bad54ec6bd9e5, type: 2}
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 1130943672, guid: cecb79242d352c643b50fcdde15e7505, type: 3}
+    m_Data: {fileID: 1767642860, guid: 8b488528072ae0145bce6de6f09f6db0, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 0
+    m_Data: {fileID: -224567953980598268, guid: 0b07671f5327635438539193964ab46d, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
     m_RefCount: 1
@@ -7379,9 +7395,9 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -18, y: 0, z: 0}
-  m_Size: {x: 18, y: 13, z: 1}
+  m_Color: {r: 0.9960785, g: 0.95294124, b: 0, a: 1}
+  m_Origin: {x: -19, y: 0, z: 0}
+  m_Size: {x: 19, y: 20, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -7630,11 +7646,11 @@ Tilemap:
   m_TileAssetArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 78390a5806e84bc428325a08db702508, type: 2}
+    m_Data: {fileID: 11400000, guid: d26c60fb02d2d9f4a9fbedd2a1a89de5, type: 2}
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 1130943672, guid: cecb79242d352c643b50fcdde15e7505, type: 3}
+    m_Data: {fileID: 1767642860, guid: 8b488528072ae0145bce6de6f09f6db0, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
     m_RefCount: 1
@@ -7661,7 +7677,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.96981126, g: 0.11527941, b: 0.11527941, a: 1}
   m_Origin: {x: 0, y: -7, z: 0}
   m_Size: {x: 24, y: 7, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}

@@ -6326,7 +6326,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3.5577145, y: 0.40598774}
+  m_Offset: {x: 3.5993626, y: 0.3988771}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6336,7 +6336,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.570133, y: 0.48235512}
+  m_Size: {x: 0.16177893, y: 0.1593284}
   m_EdgeRadius: 0
 --- !u!483693784 &265092205
 TilemapRenderer:
@@ -6417,10 +6417,16 @@ Tilemap:
   m_TileAssetArray:
   - serializedVersion: 2
     m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 1b1ff2656b08ec442bbf8ff932820fb6, type: 2}
+  - serializedVersion: 2
+    m_RefCount: 0
     m_Data: {fileID: 11400000, guid: 645e082c3f3582b40ba2d303a2df36f1, type: 2}
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 1
+    m_Data: {fileID: -73951180, guid: 8b488528072ae0145bce6de6f09f6db0, type: 3}
+  - serializedVersion: 2
+    m_RefCount: 0
     m_Data: {fileID: 1933370707, guid: 0b07671f5327635438539193964ab46d, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
@@ -6448,9 +6454,9 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9960785, g: 0.95294124, b: 0, a: 1}
   m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 23, y: 3, z: 1}
+  m_Size: {x: 34, y: 7, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -6911,11 +6917,11 @@ Tilemap:
   m_TileAssetArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 78390a5806e84bc428325a08db702508, type: 2}
+    m_Data: {fileID: 11400000, guid: d26c60fb02d2d9f4a9fbedd2a1a89de5, type: 2}
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: 1130943672, guid: cecb79242d352c643b50fcdde15e7505, type: 3}
+    m_Data: {fileID: 1767642860, guid: 8b488528072ae0145bce6de6f09f6db0, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
     m_RefCount: 1
@@ -6942,7 +6948,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.96981126, g: 0.11527941, b: 0.11527941, a: 1}
   m_Origin: {x: -25, y: -11, z: 0}
   m_Size: {x: 25, y: 11, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
