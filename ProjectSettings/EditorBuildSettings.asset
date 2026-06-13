@@ -53,5 +53,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wasted2.unity
     guid: 745a2ac9236cb4f43a57800091a5deff
+  - enabled: 1
+    path: Assets/Scenes/Wasted3.unity
+    guid: 46e8aa95643979245a5d14599783ea04
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: c359983e1425c4e40b7d778d27a68a9a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 78755b7050fca2548a07594123c246b8, type: 3}
