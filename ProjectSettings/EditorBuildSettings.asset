@@ -6,8 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: c359983e1425c4e40b7d778d27a68a9a
+  - enabled: 1
+    path: Assets/Scenes/Instroction.unity
+    guid: 144a79c43d4db1a4eaedf9141e1ec190
+  - enabled: 1
+    path: Assets/Scenes/Rule.unity
+    guid: 354fa57c4e2b54b4f8f0008a6674916c
+  - enabled: 1
+    path: Assets/Scenes/Pre Scene1.unity
+    guid: 813c9d8f25e9bad4aa5a429f4a6da9a3
+  - enabled: 1
+    path: Assets/Scenes/Pre Scene2.unity
+    guid: e4910bdd911df024798e44534c1cf43a
+  - enabled: 1
+    path: Assets/Scenes/Pre Scene3.unity
+    guid: a1f6587176cb5aa4cbc1c2297d9c948c
+  - enabled: 1
+    path: Assets/Scenes/Pre Scene4.unity
+    guid: c1d98063b136db04588e392764362bf5
+  - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Scene1-2.unity
+    guid: c94387413cca9bf4c9f80694a4a062b7
   - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: 43f2813fbd2ba9842b3b102513c13b7f
@@ -56,8 +80,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wasted3.unity
     guid: 46e8aa95643979245a5d14599783ea04
-  - enabled: 1
-    path: Assets/Scenes/Lobby.unity
-    guid: c359983e1425c4e40b7d778d27a68a9a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 78755b7050fca2548a07594123c246b8, type: 3}

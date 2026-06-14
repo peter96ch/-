@@ -1,5 +1,7 @@
+/*THIS CODE IS MY OWN WORK. IT WAS WRITTEN WITHOUT CONSULTING CODE WRITTEN BY OTHER STUDENTS OR ANY ONE WHO IS NOT AWARE OF MY REFERENCE. 414430045 Hsin-Yen Chiang and 414430017 LI-Yang Chen*/
+
 using UnityEngine;
-using UnityEngine.SceneManagement; // ✨ 必須引入這個命名空間才能控制場景切換
+using UnityEngine.SceneManagement;
 
 public class MapTransfer : MonoBehaviour
 {
@@ -7,15 +9,12 @@ public class MapTransfer : MonoBehaviour
     public string[] sceneToLoad;
 
 
-    // 當有帶有 Collider 2D 的物件進入觸發範圍時，Unity 會自動呼叫這個方法
+    //Collider觸發
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 檢查走進來的物件，它的 Tag 是不是 "Player"
-        if (collision.CompareTag("Player"))
-        {
-            //Debug.Log("玩家踩到傳送點！準備切換地圖至：" + sceneToLoad);
-            
-            // 載入指定的場景（地圖）
+        if (collision.CompareTag("Player"))//是不是Player
+        {   
+            // 載入特定場景
             int randomIndex = Random.Range(0, sceneToLoad.Length);
             SceneManager.LoadScene(sceneToLoad[randomIndex]);
         }

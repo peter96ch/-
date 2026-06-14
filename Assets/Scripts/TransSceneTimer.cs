@@ -1,3 +1,5 @@
+/*THIS CODE IS MY OWN WORK. IT WAS WRITTEN WITHOUT CONSULTING CODE WRITTEN BY OTHER STUDENTS OR ANY ONE WHO IS NOT AWARE OF MY REFERENCE. 414430045 Hsin-Yen Chiang and 414430017 LI-Yang Chen*/
+
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -45,6 +47,14 @@ public class PersistentTimer : MonoBehaviour
     //  每當新場景開好時，Unity 會自動呼叫這個函數
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        if (scene.name == "Scene1") //  這裡的引號名字，必須跟你的第一關 Scene 檔案名稱完全一模一樣！
+        {
+            timeRemaining = 120f; // 1. 時間重新充滿 120 秒
+            isGameOver = false;   // 2. 重新解鎖計時器開關，讓 Update 恢復運作
+        }
+        
+        
+        
         // 如果切換到了 GameOver 場景，就停止計時
         if (scene.name == "GameOver")
         {
